@@ -8,11 +8,11 @@ ledPin = 12
 
 GPIO.setup(ledPin, GPIO.OUT)
 
-dot_length = .25
-dash_length = .75
-part = .25
-next_letter = .5
-space = 1.75
+dot_length = .1
+dash_length = .3
+part = .1
+next_letter = .2
+space = .7
 
 def dot():
 	print("LED turning on")
@@ -150,9 +150,9 @@ def z():
 	dot()
 	dot()
 
-a()
+s()
 next()
-b()
+o()
 next()
-c()
+s()
 next()
