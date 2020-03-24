@@ -1,3 +1,0 @@
-def a():
-	dot()
-	dash()
